@@ -4,8 +4,9 @@
 	<listeners></listeners>
 	<test thread-count="5" name="Test" parallel="classes">
 		<classes>
-			<class name="example.example.tests.GoogleSearchTest" />
-			<class name="example.example.tests.AtlasLoginTest"></class>
+			<class name="File.example.tests.AtlasLoginTest" />
+			<class name="File.example.tests.BaseTest"/>
+			<class name="File.example.tests.InwardPOCreationTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

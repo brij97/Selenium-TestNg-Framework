@@ -60,7 +60,7 @@ public class GoogleSearchTest extends BaseTest {
 	<listeners></listeners>
 	<test thread-count="5" name="Test" parallel="classes">
 		<classes>
-			<class name="example.example.tests.GoogleSearchTest" />
+			<class name="File.File.tests.GoogleSearchTest" />
 ```
 4.Execute the test cases by maven command `mvn clean test`
 
